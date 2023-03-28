@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/ImgV_Clock"
+        android:src="@drawable/clock"
+        android:layout_alignParentTop="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_viewTime"
+        android:layout_marginHorizontal="20dp"
+        android:text="Xem thời gian"
+        android:textAllCaps="false"
+        android:backgroundTint="#12ADC8"
+        android:textSize="20sp"
+        android:paddingVertical="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_below="@+id/ImgV_Clock"/>
+
+
+</RelativeLayout>

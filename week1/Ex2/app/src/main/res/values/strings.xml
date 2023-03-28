@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">bt2</string>
+    <string name="i_n">đòi nợ</string>
+    <string name="nh_p_s_i_n_tho_i_c_n_i_n">nhập số điện thoại cần đòi nợ</string>
+</resources>

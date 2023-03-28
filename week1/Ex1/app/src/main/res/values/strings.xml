@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab1</string>
+    <string name="quick_game">Quick Game</string>
+    <string name="help_game">Help Game</string>
+    <string name="continue_game">Continue Game</string>
+    <string name="new_game">New Game</string>
+</resources>
