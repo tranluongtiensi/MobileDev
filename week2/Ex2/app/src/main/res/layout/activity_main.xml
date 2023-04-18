@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="bottom">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/redRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red"
+            android:checked="true"
+            android:textColor="@color/white"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:background="@color/red"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/greenRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Green"
+            android:textColor="@color/white"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:background="@color/green"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/blueRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blue"
+            android:textColor="@color/white"
+            android:button="@android:color/transparent"
+            android:gravity="center"
+            android:background="@color/blue"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+</LinearLayout>
